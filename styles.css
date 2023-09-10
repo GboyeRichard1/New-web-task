@@ -53,8 +53,18 @@ height: 400px;
 position: absolute;
 top: 500px;
 left:590px;
-border: 4px solid rgb(83, 6, 6)
+background-image: url("./whiteimage.png");
+border: 4px solid rgb(83, 6, 6);
 }
+
+.whitebackground{ 
+    width:150px;
+    height:180px;
+    position: absolute;
+    top:620px;
+    right:160px;
+}
+
 
 .firstparagraph{
 font-size: 15px;
@@ -89,3 +99,6 @@ color: rgb(41, 3, 3);
 .firstbold, .secondbold, .thirdbold{
     font-weight: bold;
 }
+
+
+
