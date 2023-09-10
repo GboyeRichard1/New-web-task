@@ -11,7 +11,7 @@ font-weight: 900;
 .mainpage{
 background-color: white;
 width:1040px;
-height:870px;
+height:1500px;
 margin-left: 40px;
 margin-right: 40px;
 display: flex;
@@ -28,4 +28,20 @@ position: absolute;
 top:230px;
 right:520px;
    
+}
+
+.publicrelations{
+width:900px;
+height:400px;
+}
+
+.secondheading{
+font-family: 'Times New Roman', Times, serif;
+font-size: 25px;
+font-weight: bold;
+color: rgb(100, 4, 4);
+position:absolute;
+top:400px;
+right: 385px;
+text-shadow: 5px 6px 8px black;
 }
