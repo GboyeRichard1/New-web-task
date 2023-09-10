@@ -19,7 +19,6 @@ border:3px solid black;
 padding: 30px;
 position: relative;
 
-
 }
 
 .companylogo{
@@ -27,6 +26,7 @@ position: relative;
     height:140px;
     position: absolute;
     top:230px;
-    justify-items: center;
+    right:520px;
+   
 
 }
