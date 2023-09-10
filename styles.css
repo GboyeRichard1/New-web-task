@@ -66,6 +66,14 @@ border: 4px solid rgb(83, 6, 6);
 }
 
 
+.companylogo2{
+    width:100px;
+    height:70px;
+    position: absolute;
+    top:680px;
+    right:190px;
+}
+
 .firstparagraph{
 font-size: 15px;
 font-family: lucida;
