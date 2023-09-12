@@ -6,11 +6,12 @@ h1 {
 font-size: 70px;
 Color: white ;
 font-weight: 900;
+
 }
 
 .mainpage{
 background-color: white;
-width:1040px;
+width:950px;
 height:1500px;
 margin-left: 40px;
 margin-right: 40px;
@@ -20,6 +21,7 @@ padding: 30px;
 position: relative;
 flex-direction: row;
 
+
 }
 
 .companylogo{
@@ -28,12 +30,8 @@ height:140px;
 position: absolute;
 top:230px;
 right:520px;
-   
-}
 
-.publicrelations{
-width:900px;
-height:400px;
+   
 }
 
 .secondheading{
@@ -45,6 +43,7 @@ position:absolute;
 top:400px;
 right: 385px;
 text-shadow: 5px 6px 8px black;
+
 }
 
 .homepageimage1{
@@ -55,6 +54,7 @@ top: 500px;
 left:590px;
 background-image: url("./whiteimage.png");
 border: 4px solid rgb(83, 6, 6);
+
 }
 
 .whitebackground{ 
@@ -63,6 +63,7 @@ border: 4px solid rgb(83, 6, 6);
     position: absolute;
     top:623px;
     right:220px;
+   
 }
 
 
@@ -72,6 +73,7 @@ border: 4px solid rgb(83, 6, 6);
     position: absolute;
     top:680px;
     right:245px;
+   
 }
 
 .firstparagraph{
@@ -92,6 +94,7 @@ top: 648px;
 left:200px;
 font-weight: 900;
 color: rgb(41, 3, 3);
+
 }
 
 .firstlist{
@@ -102,11 +105,26 @@ color: rgb(41, 3, 3);
     left: 100px;
     max-width: 400px;
     font-weight: 500;
+
 }
 
 .firstbold, .secondbold, .thirdbold{
     font-weight: bold;
 }
 
+.firstbutton{
+width:220px;
+height: auto;
+background-color: rgb(82, 82, 7);
+text-align: center;
+color: white;
+font-family: lucida;
+position: absolute;
+top:970px;
+left:470px;
+flex-direction: row;
+border-radius: 10px;
 
+
+}
 
