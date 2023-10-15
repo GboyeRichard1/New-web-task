@@ -98,7 +98,7 @@ font-family: lucida;
 font-weight: 900;
 color: goldenrod; 
 margin-top: 20px;
-padding-left: 120px ;
+padding-left: 120px;
 }
 
 .list{
@@ -150,4 +150,35 @@ font-size: 25px;
     margin-top: 60px;
     border: 4px solid rgb(83, 6, 6);
     filter:brightness(30%);
+   
+}
+
+.centerpicture{
+    position: relative;
+}
+.overlaytext{
+    position: absolute;
+    top: 50%;
+    left: 23%;
+    color: white;
+    font-weight: bold;
+    font-size: 28px;
+
+}
+.boyimage{
+    position: absolute;
+    height: 300px;
+    width: 150px;
+    top: 30%;
+    left: 5%;
+   
+
+}
+.girlimage{
+  height: 300px;
+  width: 150px;
+  position: absolute;
+  top: 30%;
+  left: 47%;
+
 }
