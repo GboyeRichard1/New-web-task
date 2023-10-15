@@ -18,6 +18,10 @@ body{
     height:100%;
     width: 100%;
     margin: 30px;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    
     }
 
 .Firstheading {
@@ -61,7 +65,7 @@ text-align: center;
 font-family: 'Times New Roman', Times, serif;
 font-size: 20px;
 font-weight: bold;
-color:darkgoldenrod;
+color: goldenrod;
 text-align: center;
 
 }
@@ -74,25 +78,6 @@ border: 4px solid rgb(83, 6, 6);
 margin-top: 60px;
 }
 
-.bigpencilimage{
-    position: relative;
-}
-
-.whitebackground{ 
-    width:150px;
-    height:180px;
-    position: absolute;
-    top: 560px;
-    right: 250px;
-}
-
-.companylogo2{
-    width:100px;
-    height:70px;
-    position:absolute;
-    top: 625px;
-    right: 280px;
-}
 
 
 .paragraphsandlist{
@@ -111,7 +96,7 @@ text-align: center;
 font-size: 23px;
 font-family: lucida;
 font-weight: 900;
-color: darkgoldenrod;
+color: goldenrod; 
 margin-top: 20px;
 padding-left: 120px ;
 }
@@ -131,8 +116,6 @@ padding-left: 120px ;
     font-family: lucida;
     max-width: 400px;
     font-weight: 500;
-
-
 }
 
 .firstbold, .secondbold, .thirdbold{
@@ -144,15 +127,27 @@ padding-left: 120px ;
     margin-bottom: 8px;
 }
 
-
-
-.firstbutton{
-width:220px;
-background-color: rgb(82, 82, 7);
-color: white;
-font-family: lucida;
-border-radius: 10px;
-
-
+.readmore{
+background-color: goldenrod;
+font-family: 'Gill Sans';
+border-radius: 20px;
+display: inline-block;
+width: 350px;
+height: 60px;
+color: rgb(83, 6, 6);
+font-weight: bold;
+font-size: 25px;
 }
 
+.readmorebutton{
+    margin-top: 60px;
+    text-align: center;
+}
+
+.middleimage{
+    width: 100%;
+    height: 450px;
+    margin-top: 60px;
+    border: 4px solid rgb(83, 6, 6);
+    filter:brightness(30%);
+}
